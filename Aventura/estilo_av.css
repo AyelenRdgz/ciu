@@ -1,0 +1,45 @@
+body {
+    background-image: url("imagenes/espacio.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Verdana";
+}
+
+#menu {
+    color: white;
+    text-align: center;
+    border: hidden double blue;
+    text-decoration-color: cornsilk;
+}
+ 
+#imagen {
+   /* display: inline-block; */
+    text-align: center;
+}
+
+.pregunta {  /*Lo hago en una clase para hacer una clase nada mas, debería ir todo cómo id? */
+    text-align: center;
+    color:violet;
+    font-family: "Consolas";
+}
+
+a {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 10px 10px 10px 10px;
+    background: #0ebbdac4;
+    padding: 10px 20px;
+    display: inline;
+
+}
+a:hover {
+    text-decoration: underline;
+
+}
+
+#centrar {
+    text-align: center;
+}
